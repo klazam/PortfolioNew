@@ -1,0 +1,400 @@
+/*****************************************
+
+				GENERAL
+
+******************************************/
+
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 30px;
+    
+
+}
+
+h1 {
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 40px;
+	font-size: 28px;
+	text-shadow: -2px 4px 15px #000000;
+}
+
+h2 {
+	padding-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: rgba(0,0,0,0.6);
+}
+
+a:hover {
+	color: rgba(0,0,0,0.1);
+}
+
+.nav a:hover {
+	border-bottom: solid #00BFFF;
+}
+
+.selected a {
+	color: black;
+	border-bottom: solid #00BFFF;
+}
+
+li a {
+	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: -3px;
+}
+
+span {
+	font-weight: bold;
+}
+
+.toTheTop {
+	display: none;  
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;  
+}
+
+.toTheTop img {
+	max-height: 100%;
+	max-width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.toTheTop:hover {
+	cursor: pointer;
+}
+
+/*****************************************
+
+				STICKY
+
+******************************************/
+
+.nav {
+	width: 100%;
+	background: rgba(0,0,0,0.6);
+    color: black;
+	font-size: 18px;
+	line-height: 1.6em;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(0,0,0,.2);
+	width:100%;
+	box-sizing:border-box;
+	z-index: 10;
+	padding-top: 5px;
+	box-shadow: -1px 5px 15px rgba(0,0,0,0.23);
+	position: fixed;
+}
+
+.nav a {
+	color: white;
+}
+
+.nav a:hover {
+	color: #B8B8B8;
+}
+
+.nav .selected a {
+	color: #B8B8B8;
+}
+
+/*****************************************
+
+				SLIDER
+
+******************************************/
+
+.slick-dots {
+	bottom: 50px;
+	font-size: 16px;
+}
+
+/*****************************************
+
+				HEADER
+
+******************************************/
+
+header {
+	min-height: 100vh;
+}
+
+#header {
+	/* HEADER GRADIENT */
+	background: rgba(153,153,153,1);
+	background: -moz-linear-gradient(top, rgba(153,153,153,1) 0%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(153,153,153,1)), color-stop(100%, rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(top, rgba(153,153,153,1) 0%, rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(top, rgba(153,153,153,1) 0%, rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(top, rgba(153,153,153,1) 0%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(to bottom, rgba(153,153,153,1) 0%, rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#999999', endColorstr='#ffffff', GradientType=0 );
+    text-align: center;
+    padding: 10px;	
+    padding-bottom: 100px;
+}
+
+#header img {
+	vertical-align: center;
+	max-height: 110px;
+	max-width: 100%;
+	padding-top: 170px;
+}
+
+#header a img {
+	max-width: 100px;
+	padding: 40px;
+}
+
+#header a:hover {
+	border-bottom: none;
+}
+
+#header p {
+	padding-bottom: 70px;
+	font-size: 2em;
+}
+
+.nav li {
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	z-index: 10;
+}
+
+/*****************************************
+
+				ABOUT
+
+******************************************/
+
+#about {
+	min-height: 450px;
+	max-width: 1200px;
+	margin-bottom: 50px;
+}
+
+#about a img {
+	width: 100px;
+	display: inline-block;
+	margin-top: 0px;
+	margin-bottom: -10px;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+#about p {
+	margin-left: 4%;
+	margin-top: 10px;
+	margin-right: 4%;
+}
+
+#quote {
+	width: 100%;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	text-shadow: -4px 6px 8px #000;
+	background: url("../img/sky.jpg") center center fixed repeat;
+	-webkit-background-size: cover !important;
+	-moz-background-size: cover !important;
+	-o-background-size: cover !important;
+	background-size: cover !important;
+}
+
+#quote p {
+	font-size: 1.2em;
+	color: white;
+	font-weight: bold;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#profile_photo {
+	display: block;
+	max-width: 250px;
+	float: right;
+	border-radius: 30px;
+	margin-top: 100px;
+	margin-right: 20px;
+	margin-left: 3%;
+	margin-bottom: 100px;
+	/* MIROR GRADIENT PROFILE PHOTO */
+    box-reflect:below 0px linear-gradient(to bottom,
+		transparent 50%,
+		rgba(255,255,255,0.1) 90%,
+		rgba(255,255,255,0.6) 100%,
+		transparent 0%);
+	-webkit-box-reflect:below 0px -webkit-linear-gradient(top,
+		transparent 50%,
+		rgba(255,255,255,0.1) 80%,
+		rgba(255,255,255,0.6) 100%,
+		transparent 0%);
+}
+
+/*****************************************
+
+				SKILLS
+
+******************************************/
+
+#black {
+	background: black;
+}
+
+h1#black {
+	color: white;
+}
+
+#skills h2 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#slide1 {
+	background: #66D9FF;
+}
+
+#slide2 {
+	background: #17B2E6;
+}
+
+#slide3 {
+	background: #66D9FF;
+}
+
+#slide4 {
+	background: #17B2E6;
+}
+
+#slide4 div.container{
+	color: black;
+}
+
+
+/*****************************************
+
+				EXPERCIENCE
+
+******************************************/
+
+#experience {
+	text-align: center;
+}
+
+#experience div {
+	width: 29%; 
+	display: inline-block;
+	padding: 0 1.5% 50px 1.5%;
+}
+
+#experience img {
+	max-width: 100%;
+}
+
+#experience span {
+	font-weight: bold;
+	font-size: 1.3em;
+	padding-bottom: 5px;
+}
+
+.effect {
+	-webkit-filter: grayscale(100%);
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	transition: all .5s ease;
+}
+ 
+.effect:hover {
+	-webkit-filter: grayscale(0%);
+	
+}
+
+.effect img {
+	-webkit-filter: blur(2px);
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+.effect img:hover {
+	-webkit-filter: blur(0px);
+}
+
+/*****************************************
+
+				CONTACT
+
+******************************************/
+
+#contact {
+	background: #17B2E6;
+	width: 100%;
+	font-size: 1.05em;
+}
+
+div.container {
+	max-width: 1200px;
+	text-align: center;
+	padding-bottom: 40px;
+	color: white;
+}
+
+
+.container a:hover {
+	color: black;
+	border-bottom: none;
+	font-weight: bold;
+}
+
+#contact h1 {
+	color: white
+}
+
+.big {
+	font-size: 1.2em;
+}
+
+.container img {
+	width: 20px;
+}
+
+/*****************************************
+
+				FOOTER
+
+******************************************/
+
+footer {
+	background: rgba(0,0,0,0.8);
+	padding-top: 20px;
+	color: #DDD;
+	text-align: center;
+}
+
+footer img {
+	width: 20px;
+	padding: 3px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
