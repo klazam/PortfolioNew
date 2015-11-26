@@ -226,7 +226,7 @@ header {
 	padding-left: 10px;
 }
 
-#profile_photo {
+.profile_photo {
 	display: block;
 	max-width: 250px;
 	float: right;
