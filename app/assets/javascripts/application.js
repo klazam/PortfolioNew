@@ -11,6 +11,6 @@
 // about supported directives.
 //
 //= require jquery
-//= require slick.min.js
-//= require main.js
+//= require slick.min
+//= require main
 //= require turbolinks
