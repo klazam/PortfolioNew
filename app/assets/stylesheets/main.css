@@ -135,7 +135,7 @@ header {
 	min-height: 100vh;
 }
 
-#header {
+.header {
 	/* HEADER GRADIENT */
 	background: rgba(153,153,153,1);
 	background: -moz-linear-gradient(top, rgba(153,153,153,1) 0%, rgba(255,255,255,1) 100%);
@@ -150,23 +150,23 @@ header {
     padding-bottom: 100px;
 }
 
-#header img {
+.header img {
 	vertical-align: center;
 	max-height: 110px;
 	max-width: 100%;
 	padding-top: 170px;
 }
 
-#header a img {
+.header a img {
 	max-width: 100px;
 	padding: 40px;
 }
 
-#header a:hover {
+.header a:hover {
 	border-bottom: none;
 }
 
-#header p {
+.header p {
 	padding-bottom: 70px;
 	font-size: 2em;
 }
@@ -184,13 +184,13 @@ header {
 
 ******************************************/
 
-#about {
+.about {
 	min-height: 450px;
 	max-width: 1200px;
 	margin-bottom: 50px;
 }
 
-#about a img {
+.about a img {
 	width: 100px;
 	display: inline-block;
 	margin-top: 0px;
@@ -199,13 +199,13 @@ header {
 	margin-right: 4%;
 }
 
-#about p {
+.about p {
 	margin-left: 4%;
 	margin-top: 10px;
 	margin-right: 4%;
 }
 
-#quote {
+.quote {
 	width: 100%;
 	text-align: center;
 	padding-top: 60px;
@@ -218,7 +218,7 @@ header {
 	background-size: cover !important;
 }
 
-#quote p {
+.quote p {
 	font-size: 1.2em;
 	color: white;
 	font-weight: bold;
@@ -226,7 +226,7 @@ header {
 	padding-left: 10px;
 }
 
-#profile_photo {
+.profile_photo {
 	display: block;
 	max-width: 250px;
 	float: right;
@@ -254,39 +254,34 @@ header {
 
 ******************************************/
 
-#black {
+.black {
 	background: black;
 }
 
-h1#black {
+h1.black {
 	color: white;
 }
 
-#skills h2 {
+.skills h2 {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
 
-#slide1 {
+.slide1 {
 	background: #66D9FF;
 }
 
-#slide2 {
+.slide2 {
 	background: #17B2E6;
 }
 
-#slide3 {
+.slide3 {
 	background: #66D9FF;
 }
 
-#slide4 {
+.slide4 {
 	background: #17B2E6;
 }
-
-#slide4 div.container{
-	color: black;
-}
-
 
 /*****************************************
 
@@ -294,21 +289,21 @@ h1#black {
 
 ******************************************/
 
-#experience {
+.experience {
 	text-align: center;
 }
 
-#experience div {
+.experience div {
 	width: 29%; 
 	display: inline-block;
 	padding: 0 1.5% 50px 1.5%;
 }
 
-#experience img {
+.experience img {
 	max-width: 100%;
 }
 
-#experience span {
+.experience span {
 	font-weight: bold;
 	font-size: 1.3em;
 	padding-bottom: 5px;
@@ -347,7 +342,7 @@ h1#black {
 
 ******************************************/
 
-#contact {
+.contact {
 	background: #17B2E6;
 	width: 100%;
 	font-size: 1.05em;
@@ -367,7 +362,7 @@ div.container {
 	font-weight: bold;
 }
 
-#contact h1 {
+.contact h1 {
 	color: white
 }
 
