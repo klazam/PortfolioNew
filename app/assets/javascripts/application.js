@@ -10,7 +10,7 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery-1.11-3.min.js
+//= require jquery
 //= require slick.min.js
 //= require main.js
 //= require turbolinks
